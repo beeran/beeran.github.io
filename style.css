@@ -1,0 +1,56 @@
+body {
+    background-color: #dddddd;
+    /* To make footer work. */
+    padding-bottom: 70px;
+}
+
+.navbar-default a.navbar-title,
+.navbar-default a.navbar-title:focus,
+.navbar-default a.navbar-title:hover {
+    background-color: #0BADA6;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar-header {
+        background-color: #0BADA6;
+    }
+}
+
+h1 {
+    color: #0BADA6;
+}
+
+.section {
+    background: white;
+    margin: 1em;
+    padding: 3em 2em;
+}
+
+
+.img-small img {
+    max-width: 30%;
+    min-width: 200px !important;
+}
+
+.img-fill img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-selected img {
+    display: block;
+    border-color:  #0BADA6;
+    border-style: solid;
+    border-width: 1px;
+    /* Reduce width, otherwise border will increaes border and will force overflow */
+    max-width: 90% !important;
+}
+
+.footer {
+    padding: 1em;
+    font-size: 1em;
+}
